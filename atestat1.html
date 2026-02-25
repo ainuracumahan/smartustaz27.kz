@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аттестация| SmartUstaz</title>
+    <link rel="stylesheet" href="static/styles/style.css">
+    <style>
+        .material-cards, .grades-cards, .terms-cards { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 20px; }
+        .card { padding: 20px; background: #f2f2f2; border-radius: 8px; width: 220px; cursor: pointer; transition: 0.2s; }
+        .card:hover { background: #e0e0e0; }
+        .back-btn { margin: 40px 0; cursor: pointer; color: blue; text-decoration: underline; display: inline-block; }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <div class="container header-flex">
+        <h1 class="logo">SmartUstaz</h1>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Басты бет</a></li>
+                <li><a href="services.html" class="active">Материалдар</a></li>
+                <li><a href="atestat1.html" class="active">Аттестация</a></li>
+                <li><a href="index.html#contact" class="active">Байланыс</a></li>
+                <li><a href="index.html#kiru" class="active">Кіру</a></li>
+                </ul>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+<section class="materials">
+    <div class="container">
+        <h2 class="section-title" id="section-title">Аттестация | Аттестацияға дайындық</h2>
+        <div id="breadcrumbs"></div>
+        <div class="material-cards" id="subjects-container">
+            <!-- JS арқылы пәндер шығады -->
+        </div>
+    </div>
+    
+</section>
+</main>
+
+<script src="atestat.js"></script>
+<div class="section1">
+<h2>⭐ Жиі қойылатын сұрақтар</h2>
+
+<p><b>Аттестация қанша жылда өтеді?</b></p>
+<p>Әдетте 5 жыл сайын.</p>
+
+<p><b>Қандай құжаттар керек?</b></p>
+<p>Портфолио, өтініш, жетістіктер құжаттары.</p>
+
+</div>
+
+<footer class="main-footer">
+    
+        <span>© №27 Ыбырай Алтынсарин атындағы орта мектеп</span>
+
+</footer>
+
+</body>
+</html>
